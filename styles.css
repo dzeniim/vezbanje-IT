@@ -1,0 +1,26 @@
+.col-style{
+    
+    height: 100px;
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media(min-width:992px)
+{
+    body{
+        padding: 60px;
+    }
+    col-style{
+        height: 70vh!important;
+    }
+}
+body{
+    padding: 40px;
+}
+
+.header-img{
+    height: 350px;
+}
